@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
+  //タイトルプロパティ
 export class AppComponent {
-  title = 'admin-app';
+  title = '自社社員名簿';
 }
