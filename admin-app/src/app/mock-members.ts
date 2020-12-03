@@ -1,5 +1,6 @@
 import { Member } from './member';
 
+// Mockした社員データ一覧
 export const MEMBERS: Member[] = [
   { id: 11, name: '武山 岳大' },
   { id: 12, name: '駒倉 光紀' },

@@ -5,6 +5,7 @@ import { Observable, of } from 'rxjs';
 import { MessageService } from './message.service';
 
 @Injectable({
+  // この設定ではアプリのどこでも使用出来る
   providedIn: 'root'
 })
 export class MemberService {

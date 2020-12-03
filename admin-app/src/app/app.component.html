@@ -1,7 +1,10 @@
 <h1>{{ title }}</h1>
 <nav>
+  <!-- hrefではAngularのrouter機能でページ遷移が出来ない
+  ページ全体を読み込んでしまい、SPAの意味がなくなる -->
   <a routerLink="/dashboard">ダッシュボード</a>
   <a routerLink="/members">社員一覧</a>
 </nav>
+<!-- app-routing.moduleに設定したroutingにアクセスする -->
 <router-outlet></router-outlet>
 <app-messages></app-messages>

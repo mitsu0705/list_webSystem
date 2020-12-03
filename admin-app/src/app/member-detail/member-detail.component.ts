@@ -10,6 +10,8 @@ import { Location } from '@angular/common';
   styleUrls: ['./member-detail.component.css']
 })
 export class MemberDetailComponent implements OnInit {
+  // Inputデコレーター
+  // Inputクラスをインポートする必要があり
   @Input() member: Member;
 
   constructor(
