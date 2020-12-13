@@ -1,3 +1,8 @@
+新しくリポジトリからPULLしたときは"npm install"を実行してModuleをインストール
+"npm install"で実行
+→他のプロジェクトで実行されているとportが埋まっているとのエラーが出るため、
+　終了しているのを確認
+
 Angularプロジェクト作成方法
 ng new [フォルダ名]
 
@@ -52,6 +57,27 @@ htmlの表示方法
 
 ・AngularService作成方法
 ng generate service [Service名]
+
+・AngularのURLを設定することをルーティングという
+　→module作成
+　--flat：ディレクトリを作成せず、直下にファイルを作成する
+　--module=app：app.module.tsのimports配列に追加
+   ng generate module []-routing --flat --module=app
+
+・app.module.tsに以下を追加
+///////////////////////////////////////////////////
+import { HttpClientModule } from '@angular/common/http';
+~~~~~~~~~~~~~~
+ imports[
+    HttpClientModule
+ ],
+///////////////////////////////////////////////////
+データサーバをシミュレートするパッケージ
+npm install angular-in-memory-web-api --save
+
+
+
+
 
 
 
