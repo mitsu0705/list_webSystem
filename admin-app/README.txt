@@ -75,6 +75,7 @@ import { HttpClientModule } from '@angular/common/http';
 データサーバをシミュレートするパッケージ
 npm install angular-in-memory-web-api --save
 
+test
 
 
 
