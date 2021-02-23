@@ -4,3 +4,6 @@ https://www.pc-koubou.jp/magazine/28571
 GitリポジトリとSourceTreeをつなぐときに、Pageantに設定するファイル
 C:\Users\km199\Documents\privateKey.ppk
 ssh-rsa AAAAB3NzaC1yc2EAAAABJQAAAQEAvSvXlaK9Clyy7T1uDeiJi3XreV7WMKJWEQqMvdG9DduZYjvTYbC0lI/CQBXv+csbsTOJYxtOhpp/44zkPrPL757P110c5FmmIWsYvoJ0tCqixf8uSGKFwzgveXuqBobRU1+H9u3upCI1vgsnQuPttAL4dz4S9SwxiS7PHHP2UkVByPidZE9BYu8idqciexZ579mDwC+xfLAXk02jRZVYLgn0cVn+qHCCEa8OVDll+gsuyE/Xrlj+sB6d2K5EiiAKd0ajvjw3g2yHOjhO8zv3ITSBgo9uiB68IiswWq8ZTFL4T4aoR7KQRAmIA2BXG1fJHqhfA8pNzyxcZDpVlbZa6w== rsa-key-20201125
+
+GitリポジトリURL
+https://github.com/mitsu0705/list_webSystem.git

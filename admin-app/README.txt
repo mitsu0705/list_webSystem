@@ -1,3 +1,6 @@
+itリポジトリURL
+https://github.com/mitsu0705/list_webSystem.git
+
 新しくリポジトリからPULLしたときは"npm install"を実行してModuleをインストール
 "npm install"で実行
 →他のプロジェクトで実行されているとportが埋まっているとのエラーが出るため、
